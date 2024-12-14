@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd.Presentation", "BackEnd\BackEnd.Presentation.csproj", "{8632BFD0-7828-4DB8-BEEA-03DE6067E239}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackEnd.Presentation", "BackEnd\BackEnd.Presentation.csproj", "{8632BFD0-7828-4DB8-BEEA-03DE6067E239}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd.Entities", "BackEnd.Entities\BackEnd.Entities.csproj", "{908C7883-E96B-4B6F-AD5C-A390F2D8D866}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackEnd.Entities", "BackEnd.Entities\BackEnd.Entities.csproj", "{908C7883-E96B-4B6F-AD5C-A390F2D8D866}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd.Application", "BackEnd.Application\BackEnd.Application.csproj", "{4E8E494A-4564-4DFB-96A6-4A1F27D1BDB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackEnd.Application", "BackEnd.Application\BackEnd.Application.csproj", "{4E8E494A-4564-4DFB-96A6-4A1F27D1BDB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd.Domain", "BackEnd.Domain\BackEnd.Domain.csproj", "{2F95A754-C9CD-4B14-A4DC-8F52B26F5AB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackEnd.Domain", "BackEnd.Domain\BackEnd.Domain.csproj", "{2F95A754-C9CD-4B14-A4DC-8F52B26F5AB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd.Infrastructure", "BackEnd.Infrastructure\BackEnd.Infrastructure.csproj", "{FF3CA0DC-5166-4C8E-B7B1-553E0BAA7F6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackEnd.Infrastructure", "BackEnd.Infrastructure\BackEnd.Infrastructure.csproj", "{FF3CA0DC-5166-4C8E-B7B1-553E0BAA7F6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd.Test.xUnit", "BackEnd.Test.xUnit\BackEnd.Test.xUnit.csproj", "{20BB8735-C0ED-41A2-AB32-8C4C36E9F841}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{FF3CA0DC-5166-4C8E-B7B1-553E0BAA7F6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF3CA0DC-5166-4C8E-B7B1-553E0BAA7F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF3CA0DC-5166-4C8E-B7B1-553E0BAA7F6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20BB8735-C0ED-41A2-AB32-8C4C36E9F841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20BB8735-C0ED-41A2-AB32-8C4C36E9F841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20BB8735-C0ED-41A2-AB32-8C4C36E9F841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20BB8735-C0ED-41A2-AB32-8C4C36E9F841}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
